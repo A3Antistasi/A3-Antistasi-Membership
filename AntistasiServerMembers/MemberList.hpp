@@ -1,5 +1,8 @@
 class AntistasiServerMembers
 {
+	// Server password for the restart command (not 'password' or 'passwordAdmin', but the 'serverCommandPassword' parameter in server.cfg)
+	serverPassword = "amra";
+	
 	// It's just an array like we had in mList.sqf previously
 	class MembersArray
 	{

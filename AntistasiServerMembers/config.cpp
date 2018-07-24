@@ -1,3 +1,4 @@
+#include "BIS_AddonInfo.hpp"
 class CfgPatches
 {
 	class AntistasiServerMembers
@@ -23,15 +24,36 @@ class CfgPatches
 
 class CfgFunctions
 {
-   class AS
+   class ASMS
    {
 	   class Functions
 	   {
-		   tag = "AS";
-		   class getExternalMemberListUIDs
-		   {
+			tag = "ASMS";
+			class getExternalMemberListUIDs
+			{
 			   file = "AntistasiServerMembers\fn_getExternalMemberListUIDs.sqf";
-		   };
+			};
+			class createRestartDialog
+			{
+				file = "AntistasiServerMembers\fn_createRestartDialog.sqf";
+			};
+			class moderatorRestart
+			{
+				file = "AntistasiServerMembers\fn_moderatorRestart.sqf";
+			};
+			class init
+			{
+				file = "AntistasiServerMembers\fn_init.sqf";
+				preInit = 1;
+			};
+			class onPlayerConnected
+			{
+				file = "AntistasiServerMembers\fn_onPlayerConnected.sqf";
+			};
+			class getUIDPermissions
+			{
+				file = "AntistasiServerMembers\fn_getUIDPermissions.sqf";
+			};
 	   };
    };  
 };

@@ -1,0 +1,7 @@
+profile = s-tron;
+exportDirectory = C:\Users\s-tron\Documents;
+autoExport = false;
+
+
+@ignore "link.sqdev"
+@ignore ".project"
