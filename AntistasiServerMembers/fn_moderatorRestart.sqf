@@ -30,5 +30,6 @@ private _text = [
 "=============================================================="];
 {diag_log _x;} forEach _text;
 diag_log format ["[ASMS] Info: Restart was issued by: %1, uid: %2", _name, _uid];
+diag_log format ["Restart comment: %1", _comment];
 private _password = getText (configFile >> "AntistasiServerMembers" >> "serverPassword");
 _password serverCommand "#missions";
