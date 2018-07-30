@@ -16,7 +16,7 @@ If you want the 'Members can do a mission restart' feature to work you must also
 1. Install ARMA 3 Tools from Steam.
 ### Build with the .bat file
 2. Edit the build.bat file: you must specify the location of your AddonBuilder.exe. Launch the file and the addon's .pbo should appear in @AntistasiServerMembers/Addons folder of the repository folder.
-#### ... or build with Addon Builder manually
+### ... or build with Addon Builder manually
 2. Launch ARMA 3 Addon Builder in ARMA 3 tools.
 3. In Options specify these files in 'List of files to copy directly': `*.p3d;*.paa;*.sqf;*.cpp;*.hpp`
 4 Specify `AntistasiServerMembers\AntistasiServerMembers` as addon source directory.
