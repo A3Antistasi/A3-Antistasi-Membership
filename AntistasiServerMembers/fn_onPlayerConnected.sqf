@@ -29,4 +29,4 @@ if (_uid in ([] call ASMS_fnc_getExternalMemberListUIDs)) then {
 		}] remoteExecCall ["spawn", _owner];
 		diag_log "[ASMS] Member detected";
 	};
-};
+//};
